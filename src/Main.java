@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
         Cliente cliente = new Cliente();
-        cliente.edad = 20;
-        cliente.telefono = 123456789;
-        cliente.nombre = "Juan";
-        cliente.credito = 100;
+        cliente.setEdad(20);
+        cliente.setTelefono(123456789);
+        cliente.setNombre("Juan");
+        cliente.setCredito(100);
 
         System.out.println("El nombre del cliente es: " + cliente.getNombre());
         System.out.println("La edad del cliente es: " + cliente.getEdad());
